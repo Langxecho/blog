@@ -1,7 +1,7 @@
 ---
 title: 分支语句2switchcase结构
 date: 2017-05-26 12:12:57
-categories: java基础
+categories: [java,java基础]
 tags:
 - java
 ---

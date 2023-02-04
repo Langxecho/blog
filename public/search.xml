@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>git协作后总结</title>
+    <url>/2023/02/01/git%E5%8D%8F%E4%BD%9C%E5%90%8E%E6%80%BB%E7%BB%93/</url>
+    <content><![CDATA[<p>直播后总结,以及部分github插件的涉及</p>
+<p><a href="https://ssy-group.yuque.com/org-wiki-ssy-group-hclkne/revxml/dbg7ptlq0ta3733m">https://ssy-group.yuque.com/org-wiki-ssy-group-hclkne/revxml/dbg7ptlq0ta3733m</a></p>
+]]></content>
+      <categories>
+        <category>工作室の茶馆</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>hexo介绍</title>
     <url>/2017/05/26/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -20,19 +33,6 @@
       <categories>
         <category>本站の有趣☞言论</category>
       </categories>
-  </entry>
-  <entry>
-    <title>jQuery对表单的操作及更多应用</title>
-    <url>/2017/05/26/%E4%BB%8A%E6%97%A5%E5%BB%BA%E7%AB%8B%E7%9A%84%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<h2 id="今天建立了新的博客"><a href="#今天建立了新的博客" class="headerlink" title="今天建立了新的博客"></a>今天建立了新的博客</h2><p>不得不说hexo真的好用,可以说对新手非常友好了,但是还有一些尚不明确,代我探索探索</p>
-]]></content>
-      <categories>
-        <category>java</category>
-      </categories>
-      <tags>
-        <tag>ncie</tag>
-        <tag>yoku</tag>
-      </tags>
   </entry>
   <entry>
     <title>分支语句2switchcase结构</title>
@@ -64,10 +64,25 @@
 <p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281544268.png" alt="image-20221017191156918"></p>
 ]]></content>
       <categories>
+        <category>java</category>
         <category>java基础</category>
       </categories>
       <tags>
         <tag>java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>jQuery对表单的操作及更多应用</title>
+    <url>/2017/05/26/%E4%BB%8A%E6%97%A5%E5%BB%BA%E7%AB%8B%E7%9A%84%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<h2 id="今天建立了新的博客"><a href="#今天建立了新的博客" class="headerlink" title="今天建立了新的博客"></a>今天建立了新的博客</h2><p>不得不说hexo真的好用,可以说对新手非常友好了,但是还有一些尚不明确,代我探索探索</p>
+]]></content>
+      <categories>
+        <category>java</category>
+        <category>java领航</category>
+      </categories>
+      <tags>
+        <tag>ncie</tag>
+        <tag>yoku</tag>
       </tags>
   </entry>
   <entry>
@@ -107,10 +122,66 @@
 <p>99乘法表</p>
 <h2 id="多重循环"><a href="#多重循环" class="headerlink" title="多重循环"></a>多重循环</h2>]]></content>
       <categories>
+        <category>java</category>
         <category>java基础</category>
       </categories>
       <tags>
         <tag>java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>视频转换工具万兴优转与下载工具motrix(附带百度云不限速方法)</title>
+    <url>/2023/02/01/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB--%E7%8E%8B%E5%BA%86%E5%AE%87/</url>
+    <content><![CDATA[<h3 id="为大家推荐两款工具"><a href="#为大家推荐两款工具" class="headerlink" title="为大家推荐两款工具"></a>为大家推荐两款工具</h3><blockquote>
+<p><em><strong>一款集录制,格式转换,轻剪辑一体的工具———万兴优转<a href="https://download.mcloud.139.com/storageWeb/servlet/downloadServlet?code=S0IwczExZG85bFoxQ2IyMDIxN3RxQV9kbHF6&un=34002CED7AB72498642A3AB9FB333852BC52A25D756BBB6427BC252A6158E7E0&dom=D961&txType=0">下载</a></strong></em></p>
+</blockquote>
+<p>这个工具集成了海量的功能,能够满足各种各样的实际需求</p>
+<img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302011228448.png" alt="image-20230201122806325" style="zoom:50%;" />
+
+<img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302011228103.png" alt="image-20230201122829031" style="zoom:50%;" />
+
+<p><strong>• 号称业界领先的APEXTRANS™技术，转换速度超快，且不会造成任何质量损失</strong><br><strong>• 高清无损压缩音视频，可视化调节视频大小及画质，压缩速度快，高清无损画质</strong><br><strong>• 支持高清无损压缩1000+格式，支持录制高清视频，支持4K和VR视频格式转换</strong><br><strong>• 支持10,000个视频网站（如YouTube、Netflix等视频站）下载并录制高清视频</strong></p>
+<h3 id="特点描述"><a href="#特点描述" class="headerlink" title="特点描述"></a>特点描述</h3><ul>
+<li>破解会员功能免登陆，第三方便携式处理，适度精简优化！</li>
+<li>├—输出视频无水印、高速转换、批量转换、硬件加速等功能</li>
+<li>├—解锁后的万兴优转会员版功能对比 uniconverter.cn/pay</li>
+<li>预设配置：默认中文、启用高速转换、高速下载、GPU硬件加速</li>
+<li>删除组件：传输设备组件和驱动、云盘组件、升级组件、多国语言</li>
+<li>无 Wondershare Helper Compact 后台依赖程序，该组件已剔除</li>
+</ul>
+<blockquote>
+<p>一款界面简洁优美的下载器,与百度云不限速下载的依附工具—motrix(类似IDM的全能资源下载器)<a href="https://download.mcloud.139.com/storageWeb/servlet/downloadServlet?code=S0IwczExZG85bFoxQ2IwODYxN3RxQV9pdGlq&un=802AEFA8A293AAA06786FAADEC6058EB6EEA6EE67B38F4D7934096066901D707&dom=D961&txType=0">下载</a></p>
+</blockquote>
+<p>Motrix是一款小巧实用的下载工具，它支持HTTP、FTP、BT、磁力链、等资源的下载，并且支持十个下载任务同时下载，用户在下载单个任务时最高支持64线程下载，在下载一个文件的时候如果中途需要停止的话，软件会自动帮助用户清除所有的附带文件，这样就不用担心会有残留文件的问题，是一款不错的下载工具。</p>
+<h3 id="测试链接"><a href="#测试链接" class="headerlink" title="测试链接"></a>测试链接</h3><p><strong>想要成为影之实力者</strong></p>
+<p>magnet:?xt=urn:btih:d985479a2beae9e4043fca253dd7685b665491f9&amp;tr=<a href="http://open.acgtracker.com:1096/announce">http://open.acgtracker.com:1096/announce</a></p>
+<p><strong>2022年寒假我的世界服务器一期存档</strong></p>
+<p>链接：<a href="https://pan.baidu.com/s/1IHBEn08DS7fH1Gtt5O4DYg">https://pan.baidu.com/s/1IHBEn08DS7fH1Gtt5O4DYg</a><br>提取码：y6k5</p>
+<p><strong>PS2023</strong></p>
+<p><a href="https://download.mcloud.139.com/storageWeb/servlet/downloadServlet?code=S0ExNjExaXB0UlkxRUwyMDIxN3RxQV9vREQ5&amp;un=08BE6223C9F1895A92D13A0293E3E680CB4D8349B6BF4AC5D7AB8EDE4996C911&amp;dom=D961&amp;txType=0">https://download.mcloud.139.com/storageWeb/servlet/downloadServlet?code=S0ExNjExaXB0UlkxRUwyMDIxN3RxQV9vREQ5&amp;un=08BE6223C9F1895A92D13A0293E3E680CB4D8349B6BF4AC5D7AB8EDE4996C911&amp;dom=D961&amp;txType=0</a></p>
+<blockquote>
+<p><em><strong>百度云不限速下载功能</strong></em></p>
+</blockquote>
+<p>通过一个宝藏级网站,<a href="https://www.kelongwo.com/">克隆窝</a>,来实现</p>
+<p>教程:</p>
+<ol>
+<li>下载并安装motrix(使用百度云不限速功能时需打开motrix)</li>
+<li><strong>登录</strong>克隆窝,找到百度不限速功能</li>
+</ol>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302011253451.png" alt="image-20230201125344137"></p>
+<p>3.输入网盘链接以及提取码</p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302011254493.png" alt="image-20230201125411401"></p>
+<p>4.解析后点击下载,下载的解析链接会通讯到你已经打开的motrix上,进行下载</p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302011255974.png" alt="image-20230201125542778"></p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302011256747.png" alt="image-20230201125602534"></p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302011256706.png" alt="image-20230201125621629"></p>
+<p>当然这个方法只能不限速下载较少的文件,想批量下载的话可以去了解下<a href="https://www.kelongwo.com/antdownload2/">antidownload</a>这个软件</p>
+]]></content>
+      <categories>
+        <category>科技分享</category>
+      </categories>
+      <tags>
+        <tag>黑科技</tag>
       </tags>
   </entry>
   <entry>
@@ -174,6 +245,7 @@
 <h3 id="二维数组的内存解析"><a href="#二维数组的内存解析" class="headerlink" title="二维数组的内存解析"></a>二维数组的内存解析</h3><p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281551003.png" alt="image-20221030163722839"></p>
 ]]></content>
       <categories>
+        <category>java</category>
         <category>java基础</category>
       </categories>
       <tags>
@@ -218,6 +290,7 @@
 <p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281553301.png" alt="image-20221109102147626"></p>
 ]]></content>
       <categories>
+        <category>java</category>
         <category>java基础</category>
       </categories>
       <tags>
@@ -236,6 +309,7 @@
 <p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281555465.png" alt="image-20221022135206533"></p>
 ]]></content>
       <categories>
+        <category>java</category>
         <category>java基础</category>
       </categories>
       <tags>
@@ -243,48 +317,30 @@
       </tags>
   </entry>
   <entry>
-    <title>算数运算符的使用</title>
-    <url>/2017/05/26/%E7%AE%97%E6%95%B0%E8%BF%90%E7%AE%97%E7%AC%A6%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
-    <content><![CDATA[<h2 id="算数运算符"><a href="#算数运算符" class="headerlink" title="算数运算符"></a>算数运算符</h2><p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281553513.png" alt="image-20221012101401291"></p>
-<h3 id="符号运算的注意点"><a href="#符号运算的注意点" class="headerlink" title="符号运算的注意点"></a>符号运算的注意点</h3><p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281553366.png" alt="image-20221012102808342"></p>
-<p>所以说提升运算与强制转换运算十分重要</p>
-<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281553100.png" alt="image-20221012103238704">最终被模数的符号和去出来的余是一样的</p>
-<p>开发中经常用%来判断能否被整除<img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281554441.png" alt="image-20221012103738982"><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281554172.png" alt="image-20221012104035454"></p>
-<p>自增是在表明的变量上加1</p>
-<p>前自增先自增后赋值</p>
-<p>后自增先赋值后自增</p>
-<p>自增一不会改变自身变量的类型</p>
-<h2 id="赋值运算符"><a href="#赋值运算符" class="headerlink" title="赋值运算符"></a>赋值运算符</h2><p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281554391.png" alt="image-20221012111406124"><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281554595.png" alt="image-20221012111541561"><img src="C:\Users\ECHO\AppData\Roaming\Typora\typora-user-images\image-20221012111653469.png" alt="image-20221012111653469"></p>
-<p>注意,这里的等号是赋值,+=可以理解为赋值＋2</p>
-<p>一样的还有-=   %=</p>
-<p>这种写法不会改变变量本身的数据类型</p>
-<p>用定义的话会自动提升</p>
-<p>比如</p>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">short s = <span class="number">10</span></span><br><span class="line">short a = s+<span class="number">1</span></span><br><span class="line"><span class="comment">//因为1是整形</span></span><br><span class="line"><span class="comment">//所以a会变成int值从而导致出错</span></span><br><span class="line">如果用++就没问题</span><br></pre></td></tr></table></figure>
-
-<h2 id="比较运算符"><a href="#比较运算符" class="headerlink" title="比较运算符"></a>比较运算符</h2><p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281554917.png" alt="image-20221012134612382"></p>
-<p>注意,输出的结果都是布尔类型</p>
-<p>注意=与==号的区别</p>
-<h2 id="逻辑运算符"><a href="#逻辑运算符" class="headerlink" title="逻辑运算符"></a>逻辑运算符</h2><p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281554936.png" alt="image-20221012140310668"></p>
-<h4 id="逻辑和短路的区别"><a href="#逻辑和短路的区别" class="headerlink" title="逻辑和短路的区别"></a>逻辑和短路的区别</h4><p>逻辑前后都会执行,而短路如果前面的条件已经判定不会执行了,那么后面的程序也不会执行了</p>
-<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281554730.png" alt="image-20221012192114465"></p>
-<p> <img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281554716.png" alt="image-20221012192236261"></p>
-<pre><code>## 位运算符
-</code></pre>
-<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281554250.png" alt="image-20221012193101596"></p>
-<p> <img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281554602.png" alt="image-20221012193045786"></p>
-<h4 id="这个用的比较少-为了加速学习这里不做详细说明-详情参考-day03-15"><a href="#这个用的比较少-为了加速学习这里不做详细说明-详情参考-day03-15" class="headerlink" title="这个用的比较少,为了加速学习这里不做详细说明,详情参考 day03  15"></a>这个用的比较少,为了加速学习这里不做详细说明,详情参考 day03  15</h4><h3 id="交换两个变量的值"><a href="#交换两个变量的值" class="headerlink" title="交换两个变量的值"></a>交换两个变量的值</h3><p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281554934.png" alt="image-20221012193955300"></p>
-<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281554429.png" alt="image-20221012194006274"></p>
-<h2 id="三元运算符"><a href="#三元运算符" class="headerlink" title="三元运算符"></a>三元运算符</h2><p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281554853.png" alt="image-20221012194255682"></p>
-<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281554226.png" alt="image-20221014075825076"></p>
-<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281555850.png" alt="image-20221014075949565"></p>
-<p>不相同的类型可以统一为一个结果 ,表达式1和表达式2必须是一致的<img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281555129.png" alt="image-20221014080441296"></p>
-<p>凡是可以使用三元运算符的地方都可以使用if,else结构</p>
-<p>如果两种结构都可以使用,那么优先选择三元运算符,因为他简洁又高效</p>
-<h2 id="运算符的优先级"><a href="#运算符的优先级" class="headerlink" title="运算符的优先级"></a>运算符的优先级</h2><p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281555129.png" alt="image-20221014081357625"></p>
-<p>看似复杂,实际使用中只要用好小括号就行</p>
+    <title>程序流程控制</title>
+    <url>/2017/05/26/%E7%A8%8B%E5%BA%8F%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/</url>
+    <content><![CDATA[<h2 id="程序流程控制的几大结构"><a href="#程序流程控制的几大结构" class="headerlink" title="程序流程控制的几大结构"></a>程序流程控制的几大结构</h2><ul>
+<li><p>顺序结构</p>
+</li>
+<li><p>分支结构</p>
+</li>
+<li><p>循环结构</p>
+<h2 id="分支结构"><a href="#分支结构" class="headerlink" title="分支结构"></a>分支结构</h2><p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281539392.png" alt="image-20221014082333576"><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281540328.png" alt="image-20221014082344584"></p>
+</li>
+</ul>
+<p>​    <img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281543615.png" alt="image-20221014082414516"></p>
+<h2 id="使用scaner从键盘获取数据"><a href="#使用scaner从键盘获取数据" class="headerlink" title="使用scaner从键盘获取数据"></a>使用scaner从键盘获取数据</h2><p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281543217.png" alt="image-20221014083258172"></p>
+<p>对于char型变量,scaner没有获取的方法</p>
+<p>程序是顺序执行的,如三选一,如果第一个分支行被指令被执行,那么后面的就不会再执行了<img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281543325.png" alt="image-20221014093819429"></p>
+<h4 id="if-else-结构可以互相嵌套"><a href="#if-else-结构可以互相嵌套" class="headerlink" title="if else 结构可以互相嵌套"></a>if else 结构可以互相嵌套</h4><p>但是层数最好不要超过3层</p>
+<p>一是应为你自己绕不过来</p>
+<p>二是 因为可读性太差</p>
+<p>if语句如果只有一行那么大括号可以省略,但是最好不要这样做,因为这样经常会出错(比如回头检查时要补一行,就很麻烦)</p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281543956.png" alt="image-20221016200321392"></p>
+<p>这种情况下else是就近原则</p>
 ]]></content>
       <categories>
+        <category>java</category>
         <category>java基础</category>
       </categories>
       <tags>
@@ -387,6 +443,57 @@
 <p>数组之间的使用必须是同类型的.</p>
 ]]></content>
       <categories>
+        <category>java</category>
+        <category>java基础</category>
+      </categories>
+      <tags>
+        <tag>java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>算数运算符的使用</title>
+    <url>/2017/05/26/%E7%AE%97%E6%95%B0%E8%BF%90%E7%AE%97%E7%AC%A6%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
+    <content><![CDATA[<h2 id="算数运算符"><a href="#算数运算符" class="headerlink" title="算数运算符"></a>算数运算符</h2><p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281553513.png" alt="image-20221012101401291"></p>
+<h3 id="符号运算的注意点"><a href="#符号运算的注意点" class="headerlink" title="符号运算的注意点"></a>符号运算的注意点</h3><p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281553366.png" alt="image-20221012102808342"></p>
+<p>所以说提升运算与强制转换运算十分重要</p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281553100.png" alt="image-20221012103238704">最终被模数的符号和去出来的余是一样的</p>
+<p>开发中经常用%来判断能否被整除<img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281554441.png" alt="image-20221012103738982"><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281554172.png" alt="image-20221012104035454"></p>
+<p>自增是在表明的变量上加1</p>
+<p>前自增先自增后赋值</p>
+<p>后自增先赋值后自增</p>
+<p>自增一不会改变自身变量的类型</p>
+<h2 id="赋值运算符"><a href="#赋值运算符" class="headerlink" title="赋值运算符"></a>赋值运算符</h2><p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281554391.png" alt="image-20221012111406124"><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281554595.png" alt="image-20221012111541561"><img src="C:\Users\ECHO\AppData\Roaming\Typora\typora-user-images\image-20221012111653469.png" alt="image-20221012111653469"></p>
+<p>注意,这里的等号是赋值,+=可以理解为赋值＋2</p>
+<p>一样的还有-=   %=</p>
+<p>这种写法不会改变变量本身的数据类型</p>
+<p>用定义的话会自动提升</p>
+<p>比如</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">short s = <span class="number">10</span></span><br><span class="line">short a = s+<span class="number">1</span></span><br><span class="line"><span class="comment">//因为1是整形</span></span><br><span class="line"><span class="comment">//所以a会变成int值从而导致出错</span></span><br><span class="line">如果用++就没问题</span><br></pre></td></tr></table></figure>
+
+<h2 id="比较运算符"><a href="#比较运算符" class="headerlink" title="比较运算符"></a>比较运算符</h2><p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281554917.png" alt="image-20221012134612382"></p>
+<p>注意,输出的结果都是布尔类型</p>
+<p>注意=与==号的区别</p>
+<h2 id="逻辑运算符"><a href="#逻辑运算符" class="headerlink" title="逻辑运算符"></a>逻辑运算符</h2><p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281554936.png" alt="image-20221012140310668"></p>
+<h4 id="逻辑和短路的区别"><a href="#逻辑和短路的区别" class="headerlink" title="逻辑和短路的区别"></a>逻辑和短路的区别</h4><p>逻辑前后都会执行,而短路如果前面的条件已经判定不会执行了,那么后面的程序也不会执行了</p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281554730.png" alt="image-20221012192114465"></p>
+<p> <img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281554716.png" alt="image-20221012192236261"></p>
+<pre><code>## 位运算符
+</code></pre>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281554250.png" alt="image-20221012193101596"></p>
+<p> <img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281554602.png" alt="image-20221012193045786"></p>
+<h4 id="这个用的比较少-为了加速学习这里不做详细说明-详情参考-day03-15"><a href="#这个用的比较少-为了加速学习这里不做详细说明-详情参考-day03-15" class="headerlink" title="这个用的比较少,为了加速学习这里不做详细说明,详情参考 day03  15"></a>这个用的比较少,为了加速学习这里不做详细说明,详情参考 day03  15</h4><h3 id="交换两个变量的值"><a href="#交换两个变量的值" class="headerlink" title="交换两个变量的值"></a>交换两个变量的值</h3><p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281554934.png" alt="image-20221012193955300"></p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281554429.png" alt="image-20221012194006274"></p>
+<h2 id="三元运算符"><a href="#三元运算符" class="headerlink" title="三元运算符"></a>三元运算符</h2><p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281554853.png" alt="image-20221012194255682"></p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281554226.png" alt="image-20221014075825076"></p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281555850.png" alt="image-20221014075949565"></p>
+<p>不相同的类型可以统一为一个结果 ,表达式1和表达式2必须是一致的<img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281555129.png" alt="image-20221014080441296"></p>
+<p>凡是可以使用三元运算符的地方都可以使用if,else结构</p>
+<p>如果两种结构都可以使用,那么优先选择三元运算符,因为他简洁又高效</p>
+<h2 id="运算符的优先级"><a href="#运算符的优先级" class="headerlink" title="运算符的优先级"></a>运算符的优先级</h2><p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281555129.png" alt="image-20221014081357625"></p>
+<p>看似复杂,实际使用中只要用好小括号就行</p>
+]]></content>
+      <categories>
+        <category>java</category>
         <category>java基础</category>
       </categories>
       <tags>
@@ -442,6 +549,7 @@
 <p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281549602.png" alt="image-20221202092456844"></p>
 ]]></content>
       <categories>
+        <category>java</category>
         <category>java基础</category>
       </categories>
       <tags>
@@ -449,29 +557,186 @@
       </tags>
   </entry>
   <entry>
-    <title>程序流程控制</title>
-    <url>/2017/05/26/%E7%A8%8B%E5%BA%8F%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/</url>
-    <content><![CDATA[<h2 id="程序流程控制的几大结构"><a href="#程序流程控制的几大结构" class="headerlink" title="程序流程控制的几大结构"></a>程序流程控制的几大结构</h2><ul>
-<li><p>顺序结构</p>
-</li>
-<li><p>分支结构</p>
-</li>
-<li><p>循环结构</p>
-<h2 id="分支结构"><a href="#分支结构" class="headerlink" title="分支结构"></a>分支结构</h2><p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281539392.png" alt="image-20221014082333576"><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281540328.png" alt="image-20221014082344584"></p>
-</li>
-</ul>
-<p>​    <img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281543615.png" alt="image-20221014082414516"></p>
-<h2 id="使用scaner从键盘获取数据"><a href="#使用scaner从键盘获取数据" class="headerlink" title="使用scaner从键盘获取数据"></a>使用scaner从键盘获取数据</h2><p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281543217.png" alt="image-20221014083258172"></p>
-<p>对于char型变量,scaner没有获取的方法</p>
-<p>程序是顺序执行的,如三选一,如果第一个分支行被指令被执行,那么后面的就不会再执行了<img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281543325.png" alt="image-20221014093819429"></p>
-<h4 id="if-else-结构可以互相嵌套"><a href="#if-else-结构可以互相嵌套" class="headerlink" title="if else 结构可以互相嵌套"></a>if else 结构可以互相嵌套</h4><p>但是层数最好不要超过3层</p>
-<p>一是应为你自己绕不过来</p>
-<p>二是 因为可读性太差</p>
-<p>if语句如果只有一行那么大括号可以省略,但是最好不要这样做,因为这样经常会出错(比如回头检查时要补一行,就很麻烦)</p>
-<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281543956.png" alt="image-20221016200321392"></p>
-<p>这种情况下else是就近原则</p>
+    <title>关键字与保留字</title>
+    <url>/2016/05/26/%E5%85%B3%E9%94%AE%E5%AD%97%E4%B8%8E%E4%BF%9D%E7%95%99%E5%AD%97/</url>
+    <content><![CDATA[<h2 id="关键字与保留字"><a href="#关键字与保留字" class="headerlink" title="关键字与保留字"></a>关键字与保留字</h2><p>定义：被Java语言赋予特殊含义，用作专门用途的字符串（单词）</p>
+<p>特点：关键字中所有字幕都为小写</p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302041633236.png" alt="image-20230204163315062"></p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302041634382.png" alt="image-20230204163406278"></p>
+<p>灰色不算关键字但是能当关键字</p>
+<p>保留字：未来可能用，使用时要避开</p>
 ]]></content>
       <categories>
+        <category>java</category>
+        <category>java基础</category>
+      </categories>
+      <tags>
+        <tag>java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>标识符与命名规范</title>
+    <url>/2016/05/26/%E5%8F%98%E9%87%8F/</url>
+    <content><![CDATA[<h2 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h2><p><strong>变量的概念：申请内存中的一个区域</strong></p>
+<p>​           该区域的数据可以在同一类型范围内不断变化</p>
+<p>​           变量是最基本的储存类型，包含变量名，变量类型和储存的值</p>
+<p><strong>变量用于在内存中保存数据</strong>  </p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302041645262.png" alt="image-20230204164500193"></p>
+<p><strong>变量类型：整形，字符型浮点型</strong></p>
+<p>定义变量的格式 数据类型 变量名 = 变量值</p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302041645091.png" alt="image-20230204164521034"></p>
+<p>程序的读取顺序从上到下，先print后定义变量就不行</p>
+<p>一个大括号就是一个作用域，出了作用域之后变量不生效</p>
+<p><strong>同一个作用域内，不可以声明同名的两个变量</strong></p>
+<p>逆向思维，反证法，你不知道这个东西行不行，你就假设他行，然后去试试看(好低级的话)</p>
+]]></content>
+      <categories>
+        <category>java</category>
+        <category>java基础</category>
+      </categories>
+      <tags>
+        <tag>java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>标识符与命名规范</title>
+    <url>/2016/05/26/%E5%8F%98%E9%87%8F%E7%9A%84%E5%88%86%E7%B1%BB/</url>
+    <content><![CDATA[<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302041651934.png" alt="image-20230204165140864"></p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302041651397.png" alt="image-20230204165146327"></p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302041653542.png" alt="image-20230204165337404"></p>
+<p>float的范围比long还大，并且定义的数值后面要加F或f</p>
+<p>定义char（字符型）变量通常使用单引号</p>
+<p>char只能使用一个字符（等于两个字节）</p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302041654943.png" alt="image-20230204165401862"></p>
+<p>boolean变量 变量值只能取true或false,默认是false</p>
+<p>常常在条件判断与循环中使用</p>
+<p>tips:\n前面加.变为\n.就不再表示了,\的作用相当于转义.,\后的特殊符号不在表达含义</p>
+<p><strong>String</strong></p>
+<p>string不属于基本数据类型,他是引用数据类型</p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302041654630.png" alt="image-20230204165431567"></p>
+]]></content>
+      <categories>
+        <category>java</category>
+        <category>java基础</category>
+      </categories>
+      <tags>
+        <tag>java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>java学习流程概览</title>
+    <url>/2016/05/26/java%E5%AD%A6%E4%B9%A0%E6%B5%81%E7%A8%8B%E6%A6%82%E8%A7%88/</url>
+    <content><![CDATA[<h2 id="java学习流程概览"><a href="#java学习流程概览" class="headerlink" title="java学习流程概览"></a>java学习流程概览</h2><p>\n换行符，加在字符串内</p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302041638828.png" alt="image-20230204163843654"></p>
+]]></content>
+      <categories>
+        <category>java</category>
+        <category>java基础</category>
+      </categories>
+      <tags>
+        <tag>java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>标识符与命名规范</title>
+    <url>/2016/05/26/%E5%8F%98%E9%87%8F%E8%BF%90%E7%AE%97%E8%A7%84%E5%88%99/</url>
+    <content><![CDATA[<h2 id="变量运算规则"><a href="#变量运算规则" class="headerlink" title="变量运算规则"></a>变量运算规则</h2><p>long l = 1323,此时没有后加L,但是仍然可以编译,是因为实际上把1323int型赋给了long型</p>
+<p>如果后面的值超过了int的值,就会出问题<img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302041647873.png" alt="image-20230204164707790"></p>
+]]></content>
+      <categories>
+        <category>java</category>
+        <category>java基础</category>
+      </categories>
+      <tags>
+        <tag>java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>标识符与命名规范</title>
+    <url>/2016/05/26/%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E4%B9%8B%E9%97%B4%E7%9A%84%E8%BF%90%E7%AE%97%E8%A7%84%E5%88%99/</url>
+    <content><![CDATA[<h2 id="基本数据类型之间的运算规则"><a href="#基本数据类型之间的运算规则" class="headerlink" title="基本数据类型之间的运算规则"></a>基本数据类型之间的运算规则</h2><p>1.自动类型提升<img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302041655758.png" alt="image-20230204165521721"></p>
+<p>定义的结果变量的范围要大过数值否则就会丢失</p>
+<p>整型和浮点型也可以,只要数值在范围内即可</p>
+<p>低级往高级做运算应该往高级上去靠,并且整形的范围比浮点型的小 </p>
+<p>所以结论</p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302041655706.png" alt="image-20230204165529655"></p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302041655612.png" alt="image-20230204165533567"></p>
+<p>char变量和容量小的变量做运算则比较特殊</p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302041655841.png" alt="image-20230204165541775"></p>
+<p>强制类型转换运算,是自动类型提升的逆运算</p>
+<p>在被重定义的数值前加()强转符</p>
+<p>损失的小数点称为截断操作</p>
+<p><img src="C:/Users/19086/AppData/Roaming/Typora/typora-user-images/image-20230204165556547.png" alt="image-20230204165556547"></p>
+]]></content>
+      <categories>
+        <category>java</category>
+        <category>java基础</category>
+      </categories>
+      <tags>
+        <tag>java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>标识符与命名规范</title>
+    <url>/2016/05/26/%E5%B8%B8%E7%94%A8%E7%9A%84dos%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<h2 id="常用的dos命令"><a href="#常用的dos命令" class="headerlink" title="常用的dos命令"></a>常用的dos命令</h2><p>dir： 列出当前目录下的文件以及文件夹</p>
+<p>md：创建目录</p>
+<p>rd：删除目录</p>
+<p>cd：进入指定目录</p>
+<p>cd..:退回到上一级目录</p>
+<p>cd:退回到根目录</p>
+<p>del：删除文件</p>
+<p>exit：推出dos命令</p>
+<p> 补充：echo javase&gt;1.doc     echo 内容&gt;（&gt;代表到）文件名.doc</p>
+<p>批量删除同类型文件文件名用*号，如del *.doc</p>
+<p>del选择文件夹删除的是文件夹中的文件</p>
+<p>左右键移动光标</p>
+<p>上下键</p>
+]]></content>
+      <categories>
+        <category>java</category>
+        <category>java基础</category>
+      </categories>
+      <tags>
+        <tag>java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>标识符与命名规范</title>
+    <url>/2016/05/26/%E6%A0%87%E8%AF%86%E7%AC%A6%E4%B8%8E%E5%91%BD%E5%90%8D%E8%A7%84%E8%8C%83--%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/</url>
+    <content><![CDATA[<h2 id="标识符"><a href="#标识符" class="headerlink" title="标识符"></a>标识符</h2><p>可以起名字的地方都叫标识符</p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302041641794.png" alt="image-20230204164138728"></p>
+<h2 id="命名规范"><a href="#命名规范" class="headerlink" title="命名规范"></a>命名规范</h2><p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302041642126.png" alt="image-20230204164209044"></p>
+<p>java设置名字要见名知意，不要自己搞自己</p>
+]]></content>
+      <categories>
+        <category>java</category>
+        <category>java基础</category>
+      </categories>
+      <tags>
+        <tag>java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>java学习流程概览</title>
+    <url>/2016/05/26/%E6%B3%A8%E9%87%8A/</url>
+    <content><![CDATA[<h2 id="注释的规范"><a href="#注释的规范" class="headerlink" title="注释的规范"></a>注释的规范</h2><p>//单行注释：如下的语句表示输出到控制台xxxxxxxxxxxx</p>
+<p>//后的内容读代码不会读</p>
+<p>多行注释</p>
+<p>/*多行注释：xxxxxxxxxxxxxx</p>
+<p>xxxxxxxxx*/</p>
+<p>注释用来解释说明代码，方便你自己，以免你自己不懂</p>
+<p>注释可能出错的代码，然后运行，发现不报错那就是注释的地方错了，方便你排查</p>
+<p>生成的字节码文件不包含注释的信息</p>
+<p>文档注释/** */</p>
+<p>启用方法</p>
+<p>javadoc -d 创立的文件名 -author -version xxx.java(你所写的类） 编译出来的html只能够提取文档注释，文档注释中</p>
+<p>@author xxxxxx</p>
+<p>@version xxxxxxx</p>
+<p>注意：多行注释不可以嵌套使用</p>
+]]></content>
+      <categories>
+        <category>java</category>
         <category>java基础</category>
       </categories>
       <tags>

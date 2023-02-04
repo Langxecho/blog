@@ -1,7 +1,7 @@
 ---
 title: 面向对象-java类以及类的成员
 date: 2017-05-26 12:12:57
-categories: java基础
+categories: [java,java基础]
 tags:
 - java
 ---
