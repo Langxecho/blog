@@ -11,7 +11,7 @@
         name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1"
       />
-      <title>Archives: 2023 |  Langxecho</title>
+      <title> Langxecho</title>
   <meta name="generator" content="hexo-theme-ayer">
       
       <link rel="shortcut icon" href="/favicon.ico" />
@@ -51,7 +51,59 @@
     
       
     <main class="content on">
-      <section class="outer">
+      
+<section class="cover">
+    
+      
+      <a class="forkMe" href="https://github.com/"
+        target="_blank"><img width="149" height="149" src="/images/forkme.png"
+          class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1"></a>
+    
+  <div class="cover-frame">
+    <div class="bg-box">
+      <img src="/images/cover1.jpg" alt="image frame" />
+    </div>
+    <div class="cover-inner text-center text-white">
+      <h1><a href="/">Langxecho</a></h1>
+      <div id="subtitle-box">
+        
+        <span id="subtitle"></span>
+        
+      </div>
+      <div>
+        
+      </div>
+    </div>
+  </div>
+  <div class="cover-learn-more">
+    <a href="javascript:void(0)" class="anchor"><i class="ri-arrow-down-line"></i></a>
+  </div>
+</section>
+
+
+
+<script src="https://cdn.staticfile.org/typed.js/2.0.12/typed.min.js"></script>
+
+
+<!-- Subtitle -->
+
+  <script>
+    try {
+      var typed = new Typed("#subtitle", {
+        strings: ['成为你想所想的那样', '输了可不好玩,所以我从来都不会输', '快乐每一天'],
+        startDelay: 0,
+        typeSpeed: 200,
+        loop: true,
+        backSpeed: 100,
+        showCursor: true
+      });
+    } catch (err) {
+      console.log(err)
+    }
+  </script>
+  
+<div id="main">
+  <section class="outer">
   
   <ul class="ads">
     
@@ -70,245 +122,131 @@
 </ul>
   
   
+  
+
+<div class="notice" style="margin-top:50px">
+    <i class="ri-heart-fill"></i>
+    <div class="notice-content" id="broad"></div>
+</div>
+<script type="text/javascript">
+    fetch('https://v1.hitokoto.cn')
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById("broad").innerHTML = data.hitokoto;
+        })
+        .catch(console.error)
+</script>
+
+<style>
+    .notice {
+        padding: 20px;
+        border: 1px dashed #e6e6e6;
+        color: #969696;
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        background: #fbfbfb50;
+        border-radius: 10px;
+    }
+
+    .notice i {
+        float: left;
+        color: #999;
+        font-size: 16px;
+        padding-right: 10px;
+        vertical-align: middle;
+        margin-top: -2px;
+    }
+
+    .notice-content {
+        display: initial;
+        vertical-align: middle;
+    }
+</style>
+  
   <article class="articles">
     
     
-    <h1 class="page-type-title">2023</h1>
     
     
-  
-  
-  
-  
-  
-  
-  <div class="archives-wrap">
-    <div class="archive-year-wrap">
-      <a href="/archives/2023" class="archive-year">2023</a>
+    <article
+  id="post-注释"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/2016/05/26/%E6%B3%A8%E9%87%8A/"
+    >java学习流程概览</a> 
+</h2>
+ 
+
+      
+    </header>
+     
+    <div class="article-meta">
+      <a href="/2016/05/26/%E6%B3%A8%E9%87%8A/" class="article-date">
+  <time datetime="2016-05-26T04:12:57.000Z" itemprop="datePublished">2016-05-26</time>
+</a> 
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/java/">java</a> / <a class="article-category-link" href="/categories/java/java%E5%9F%BA%E7%A1%80/">java基础</a>
+  </div>
+   
     </div>
-    <div class="archives">
       
-      <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2023/02/06/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AF%BC%E8%AE%BA%E5%A4%A7%E4%B8%80%E4%B8%8A%E5%A4%8D%E4%B9%A0%E8%AE%A1%E5%88%92%E5%A4%A7%E7%BA%B2/" class="archive-article-date">
-  <time datetime="2023-02-06T03:47:16.000Z" itemprop="datePublished">02/06</time>
-</a>
+    <div class="article-entry" itemprop="articleBody">
        
-<h2 itemprop="name">
-  <a class="archive-article-title" href="/2023/02/06/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AF%BC%E8%AE%BA%E5%A4%A7%E4%B8%80%E4%B8%8A%E5%A4%8D%E4%B9%A0%E8%AE%A1%E5%88%92%E5%A4%A7%E7%BA%B2/"
-    >计算机导论大一上复习计划大纲</a> 
-</h2>
+  <h2 id="注释的规范"><a href="#注释的规范" class="headerlink" title="注释的规范"></a>注释的规范</h2><p>//单行注释：如下的语句表示输出到控制台xxxxxxxxxxxx</p>
+<p>//后的内容读代码不会读</p>
+<p>多行注释</p>
+<p>/*多行注释：xxxxxxxxxxxxxx</p>
+<p>xxxxxxxxx*/</p>
+<p>注释用来解释说明代码，方便你自己，以免你自己不懂</p>
+<p>注释可能出错的代码，然后运行，发现不报错那就是注释的地方错了，方便你排查</p>
+<p>生成的字节码文件不包含注释的信息</p>
+<p>文档注释/** */</p>
+<p>启用方法</p>
+<p>javadoc -d 创立的文件名 -author -version xxx.java(你所写的类） 编译出来的html只能够提取文档注释，文档注释中</p>
+<p>@author xxxxxx</p>
+<p>@version xxxxxxx</p>
+<p>注意：多行注释不可以嵌套使用</p>
  
-
-    </header>
-    
-    
-  </div>
-</article>
-      
-  
-  
-      <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2023/02/05/%E8%BF%9B%E5%88%B6%E7%9A%84%E8%BD%AC%E6%8D%A2/" class="archive-article-date">
-  <time datetime="2023-02-05T03:47:16.000Z" itemprop="datePublished">02/05</time>
-</a>
-       
-<h2 itemprop="name">
-  <a class="archive-article-title" href="/2023/02/05/%E8%BF%9B%E5%88%B6%E7%9A%84%E8%BD%AC%E6%8D%A2/"
-    >进制的转换</a> 
-</h2>
- 
-
-    </header>
-    
-    
-  </div>
-</article>
-      
-  
-  
-      <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2023/02/05/%E5%82%A8%E5%AD%98%E8%AE%A1%E9%87%8F%E5%8D%95%E4%BD%8D%E4%B8%8E%E6%95%B0%E5%AD%97%E5%AD%98%E5%82%A8%E6%96%B9%E5%BC%8F/" class="archive-article-date">
-  <time datetime="2023-02-05T03:47:16.000Z" itemprop="datePublished">02/05</time>
-</a>
-       
-<h2 itemprop="name">
-  <a class="archive-article-title" href="/2023/02/05/%E5%82%A8%E5%AD%98%E8%AE%A1%E9%87%8F%E5%8D%95%E4%BD%8D%E4%B8%8E%E6%95%B0%E5%AD%97%E5%AD%98%E5%82%A8%E6%96%B9%E5%BC%8F/"
-    >储存计量单位与数字存储方式</a> 
-</h2>
- 
-
-    </header>
-    
-    
-  </div>
-</article>
-      
-  
-  
-      <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2023/02/05/%E8%AE%A1%E7%AE%97%E6%80%9D%E7%BB%B4-%E7%AE%97%E6%B3%95%E5%9F%BA%E7%A1%80/" class="archive-article-date">
-  <time datetime="2023-02-05T03:47:16.000Z" itemprop="datePublished">02/05</time>
-</a>
-       
-<h2 itemprop="name">
-  <a class="archive-article-title" href="/2023/02/05/%E8%AE%A1%E7%AE%97%E6%80%9D%E7%BB%B4-%E7%AE%97%E6%B3%95%E5%9F%BA%E7%A1%80/"
-    >计算思维-算法基础</a> 
-</h2>
- 
-
-    </header>
-    
-    
-  </div>
-</article>
-      
-  
-  
-      <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2023/02/05/%E5%9B%BE%E7%81%B5%E6%9C%BA%E4%B8%8E%E5%86%AF%E8%AF%BA%E4%BE%9D%E6%9B%BC%E7%BB%93%E6%9E%84/" class="archive-article-date">
-  <time datetime="2023-02-05T03:47:16.000Z" itemprop="datePublished">02/05</time>
-</a>
-       
-<h2 itemprop="name">
-  <a class="archive-article-title" href="/2023/02/05/%E5%9B%BE%E7%81%B5%E6%9C%BA%E4%B8%8E%E5%86%AF%E8%AF%BA%E4%BE%9D%E6%9B%BC%E7%BB%93%E6%9E%84/"
-    >图灵机与冯诺依曼结构</a> 
-</h2>
- 
-
-    </header>
-    
-    
-  </div>
-</article>
-      
-  
-  
-      <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2023/02/05/%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97/" class="archive-article-date">
-  <time datetime="2023-02-05T03:47:16.000Z" itemprop="datePublished">02/05</time>
-</a>
-       
-<h2 itemprop="name">
-  <a class="archive-article-title" href="/2023/02/05/%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97/"
-    >逻辑运算</a> 
-</h2>
- 
-
-    </header>
-    
-    
-  </div>
-</article>
-      
-  
-  
-      <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2023/02/05/%E8%AE%A1%E7%AE%97%E6%80%9D%E7%BB%B4/" class="archive-article-date">
-  <time datetime="2023-02-05T03:47:16.000Z" itemprop="datePublished">02/05</time>
-</a>
-       
-<h2 itemprop="name">
-  <a class="archive-article-title" href="/2023/02/05/%E8%AE%A1%E7%AE%97%E6%80%9D%E7%BB%B4/"
-    >计算思维</a> 
-</h2>
- 
-
-    </header>
-    
-    
-  </div>
-</article>
-      
-  
-  
-      <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2023/02/04/js%E7%BC%96%E7%A8%8B%E7%BB%83%E4%B9%A0%E4%B9%8B%E5%8F%98%E5%8C%96%E7%9A%84%E8%83%8C%E6%99%AF/" class="archive-article-date">
-  <time datetime="2023-02-04T12:58:16.000Z" itemprop="datePublished">02/04</time>
-</a>
-       
-<h2 itemprop="name">
-  <a class="archive-article-title" href="/2023/02/04/js%E7%BC%96%E7%A8%8B%E7%BB%83%E4%B9%A0%E4%B9%8B%E5%8F%98%E5%8C%96%E7%9A%84%E8%83%8C%E6%99%AF/"
-    >js编程练习之变化的背景</a> 
-</h2>
- 
-
-    </header>
-    
-    
-  </div>
-</article>
-      
-  
-  
-      <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2023/02/04/hexo%E5%88%9B%E5%BB%BA%E6%96%87%E4%BB%B6%E8%87%AA%E5%8A%A8%E6%89%93%E5%BC%80/" class="archive-article-date">
-  <time datetime="2023-02-04T12:40:53.000Z" itemprop="datePublished">02/04</time>
-</a>
-       
-<h2 itemprop="name">
-  <a class="archive-article-title" href="/2023/02/04/hexo%E5%88%9B%E5%BB%BA%E6%96%87%E4%BB%B6%E8%87%AA%E5%8A%A8%E6%89%93%E5%BC%80/"
-    >hexo创建文件自动打开</a> 
-</h2>
- 
-
-    </header>
-    
-    
-  </div>
-</article>
-      
-  
-  
-      <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2023/02/01/git%E5%8D%8F%E4%BD%9C%E5%90%8E%E6%80%BB%E7%BB%93/" class="archive-article-date">
-  <time datetime="2023-02-01T13:10:27.839Z" itemprop="datePublished">02/01</time>
-</a>
-       
-<h2 itemprop="name">
-  <a class="archive-article-title" href="/2023/02/01/git%E5%8D%8F%E4%BD%9C%E5%90%8E%E6%80%BB%E7%BB%93/"
-    >git协作后总结</a> 
-</h2>
- 
-
-    </header>
-    
-    
-  </div>
-</article>
-      
+      <!-- reward -->
       
     </div>
+    
+
+    <!-- copyright -->
+    
+    <footer class="article-footer">
+       
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/java/" rel="tag">java</a></li></ul>
+
+    </footer>
   </div>
-  
+
+   
+    
+</article>
+
+    
+  </article>
   
 
   
   <nav class="page-nav">
     
-    <span class="page-number current">1</span><a class="page-number" href="/archives/2023/page/2/">2</a><a class="extend next" rel="next" href="/archives/2023/page/2/">下一页</a>
+    <a class="extend prev" rel="prev" href="/page/3/">上一页</a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><span class="page-number current">4</span>
   </nav>
   
 </section>
+</div>
+
       <footer class="footer">
   <div class="outer">
     <ul>
