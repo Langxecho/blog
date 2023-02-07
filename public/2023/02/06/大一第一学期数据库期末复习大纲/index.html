@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+  
+
+    <head>
+      <meta charset="utf-8" />
+        
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1"
+      />
+      <title>大一第一学期数据库期末复习大纲 |  Langxecho</title>
+  <meta name="generator" content="hexo-theme-ayer">
+      
+      <link rel="shortcut icon" href="/favicon.ico" />
+       
+<link rel="stylesheet" href="/dist/main.css">
+
+      
+<link rel="stylesheet" href="/css/fonts/remixicon.css">
+
+      
+<link rel="stylesheet" href="/css/custom.css">
+ 
+      <script src="https://cdn.staticfile.org/pace/1.2.4/pace.min.js"></script>
+       
+ 
+
+      <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-bulma@5.0.1/bulma.min.css"
+      />
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.min.js"></script>
+
+      <!-- mermaid -->
+      
+      <style>
+        .swal2-styled.swal2-confirm {
+          font-size: 1.6rem;
+        }
+      </style>
+    </head>
+  </html>
+</html>
+
+
+<body>
+  <div id="app">
+    
+      
+    <main class="content on">
+      <section class="outer">
+  <article
+  id="post-大一第一学期数据库期末复习大纲"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h1 class="article-title sea-center" style="border-left:0" itemprop="name">
+  大一第一学期数据库期末复习大纲
+</h1>
+ 
+
+      
+    </header>
+     
+    <div class="article-meta">
+      <a href="/2023/02/06/%E5%A4%A7%E4%B8%80%E7%AC%AC%E4%B8%80%E5%AD%A6%E6%9C%9F%E6%95%B0%E6%8D%AE%E5%BA%93%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0%E5%A4%A7%E7%BA%B2/" class="article-date">
+  <time datetime="2023-02-06T08:39:11.000Z" itemprop="datePublished">2023-02-06</time>
+</a> 
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E5%BF%85%E4%BF%AE%E8%AF%BE/">必修课</a> / <a class="article-category-link" href="/categories/%E5%BF%85%E4%BF%AE%E8%AF%BE/%E6%95%B0%E6%8D%AE%E5%BA%93/">数据库</a>
+  </div>
+  
+<div class="word_count">
+    <span class="post-time">
+        <span class="post-meta-item-icon">
+            <i class="ri-quill-pen-line"></i>
+            <span class="post-meta-item-text"> Word count:</span>
+            <span class="post-count">2k</span>
+        </span>
+    </span>
+
+    <span class="post-time">
+        &nbsp; | &nbsp;
+        <span class="post-meta-item-icon">
+            <i class="ri-book-open-line"></i>
+            <span class="post-meta-item-text"> Reading time≈</span>
+            <span class="post-count">7 min</span>
+        </span>
+    </span>
+</div>
+ 
+    </div>
+      
+    <div class="tocbot"></div>
+
+
+
+
+  
+    <div class="article-entry" itemprop="articleBody">
+       
+  <h2 id="数据模型与概念模型"><a href="#数据模型与概念模型" class="headerlink" title="数据模型与概念模型"></a>数据模型与概念模型</h2><p>信息世界通过概念模型进行描述,而计算机世界则是通过数据模型进行描述</p>
+<p><strong>概念模型相关的概念:</strong></p>
+<p>对象:类似与java中的类</p>
+<p>实例:实体</p>
+<p>属性:实体某一方面特征的抽象展示</p>
+<p>码,主码,次码:唯一标识一个实体的属性或者属性组,不能唯一标识的为次码</p>
+<p>实体集之间的联系:</p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302062200686.png" alt="image-20230206220046334"></p>
+<p>数字的标法即为从箭头的根部来标,数字为这个箭头根部的对应关系,如<strong>教师n→学校</strong></p>
+<h4 id="E-R图"><a href="#E-R图" class="headerlink" title="E-R图"></a>E-R图</h4><p>长方形写实体集,圆形为属性,菱形为联系</p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302062209080.png" alt="image-20230206220925012"></p>
+<p><strong>er转化为关系模型</strong></p>
+<img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302071004965.png" alt="image-20230207100443658" style="zoom:50%;" />
+
+<p>以本图为例</p>
+<p>合并到实体时,保留自身的属性,添加关系的码和另一个实体的码(问题就在于这个关系的码,回头得弄明白)</p>
+<p>合并到关系时,保留自身的属性,添加左右两个实体的码,并且将两个码合并,作为自身的码</p>
+<p>合并写法</p>
+<p>使用(方法,<u>姓名,卡号</u>)(也就是把码用横线标出)</p>
+<p>学生(<u>姓名</u>,班级,卡号…………)</p>
+<h2 id="数据库代码部分"><a href="#数据库代码部分" class="headerlink" title="数据库代码部分"></a>数据库代码部分</h2><h4 id="查看当前所有数据库"><a href="#查看当前所有数据库" class="headerlink" title="查看当前所有数据库"></a>查看当前所有数据库</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">show databases;</span><br></pre></td></tr></table></figure>
+
+<h4 id="创建数据库"><a href="#创建数据库" class="headerlink" title="创建数据库"></a>创建数据库</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">create database 数据库名;</span><br></pre></td></tr></table></figure>
+
+<h4 id="切换字符集"><a href="#切换字符集" class="headerlink" title="切换字符集"></a>切换字符集</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alter database 数据库名 character set 字符集名</span><br></pre></td></tr></table></figure>
+
+<h4 id="创建基本表"><a href="#创建基本表" class="headerlink" title="创建基本表"></a>创建基本表</h4><p>表结构就是定义一个表的字段、类型、主键、外键、索引</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">create table 表名(</span><br><span class="line"></span><br><span class="line">列名 数据类型  约束条件,</span><br><span class="line"></span><br><span class="line">列名 数据类型  约束条件,</span><br><span class="line"></span><br><span class="line">);</span><br><span class="line">约束条件有 PRIMARY KEY设置主键</span><br><span class="line">NOT NULL 非空(不设置这个留空为null,设置了之后不可留空)</span><br><span class="line">unique数据不重复</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302071023375.png" alt="image-20230207102312335"></p>
+<p>unsigned标识只能为0-255的整数,default指定默认值</p>
+<h4 id="删除数据库"><a href="#删除数据库" class="headerlink" title="删除数据库"></a>删除数据库</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">drop database 数据库名;</span><br></pre></td></tr></table></figure>
+
+<h4 id="设置字段默认值"><a href="#设置字段默认值" class="headerlink" title="设置字段默认值"></a>设置字段默认值</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ALTER TABLE 表名 ALTER 字段名 SET DEFAULT 默认值;</span><br></pre></td></tr></table></figure>
+
+<h4 id="修改字段的条件与属性"><a href="#修改字段的条件与属性" class="headerlink" title="修改字段的条件与属性"></a>修改字段的条件与属性</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alter table 数据库名 modify 字段名 数据类型 约束条件;</span><br></pre></td></tr></table></figure>
+
+<h4 id="插入数值语句"><a href="#插入数值语句" class="headerlink" title="插入数值语句"></a>插入数值语句</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">第一种：INSERT INTO 表名 (column1, column2, column3, ...)</span><br><span class="line">VALUES (value1, value2, value3, ...);</span><br><span class="line"></span><br><span class="line">第二种：INSERT INTO 表名</span><br><span class="line">VALUES (value1, value2, value3, ...);</span><br></pre></td></tr></table></figure>
+
+<h4 id="删除与增加主键"><a href="#删除与增加主键" class="headerlink" title="删除与增加主键"></a>删除与增加主键</h4><p>注意,主键不为空,不重复</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">alter table 表名 drop primary key;</span><br><span class="line"></span><br><span class="line">alter table 表名 add primary key(字段,字段...);</span><br></pre></td></tr></table></figure>
+
+<h4 id="自动增长"><a href="#自动增长" class="headerlink" title="自动增长"></a>自动增长</h4><p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302071055996.png" alt="image-20230207105549891"></p>
+<p>约束条件auto_increment</p>
+<p>注意一下图片里的这个语句</p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302071058245.png" alt="image-20230207105829182"></p>
+<p>自增的值可以自定义</p>
+<h4 id="展示表结构"><a href="#展示表结构" class="headerlink" title="展示表结构"></a>展示表结构</h4><p>desc 表名;<img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302071100360.png" alt="image-20230207110033297"></p>
+<h4 id="改表名-字段名-字段类型"><a href="#改表名-字段名-字段类型" class="headerlink" title="改表名,字段名,字段类型"></a>改表名,字段名,字段类型</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">alter table 表名1 rename to 表名2;(改表名)</span><br><span class="line"></span><br><span class="line">alter table 表名 change 字段名1 字段名2 数值类型;</span><br></pre></td></tr></table></figure>
+
+<h4 id="添加-删除字段"><a href="#添加-删除字段" class="headerlink" title="添加,删除字段"></a>添加,删除字段</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">alter table 表名 add 字段名 数据类型;</span><br><span class="line">alter table 表名 drop 字段名;</span><br></pre></td></tr></table></figure>
+
+<h4 id="删除表"><a href="#删除表" class="headerlink" title="删除表"></a>删除表</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">drop table 表名; 完全删除</span><br><span class="line"></span><br><span class="line">delete from 表名; 只删除数据</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h4 id="批量修改表中数据"><a href="#批量修改表中数据" class="headerlink" title="批量修改表中数据"></a>批量修改表中数据</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">update 表名 set 字段名=表达式,字段名=表达式....;</span><br></pre></td></tr></table></figure>
+
+<p>示例:<img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302071435609.png" alt="image-20230207143507522" style="zoom:50%;" /></p>
+<img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302071435681.png" alt="image-20230207143515623" style="zoom:50%;" />
+
+<h4 id="简单查询-单表-SELECT"><a href="#简单查询-单表-SELECT" class="headerlink" title="简单查询-单表(SELECT)"></a>简单查询-单表(SELECT)</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">括号内的即为顺序</span><br><span class="line">select 目标字段|字段表达式或函数 from 数据源 (where) (group by) (having) (order by)</span><br><span class="line">其中目标字段用*代表全部</span><br><span class="line"></span><br><span class="line">select distinct classname from stu;这里的distinct可以折叠重复的字段</span><br><span class="line"></span><br><span class="line">算数操作符:+ - * / %(取模)</span><br></pre></td></tr></table></figure>
+
+<p>下面提供一些案例,其中包含重要的知识点,慢慢看</p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302071448456.png" alt="image-20230207144830256"></p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302071448577.png" alt="image-20230207144847433"></p>
+<h2 id="查表与子查询相关知识点"><a href="#查表与子查询相关知识点" class="headerlink" title="查表与子查询相关知识点"></a>查表与子查询相关知识点</h2><p>and 和 or 连接多个表达式</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">select 学号 from 选课 where 课程号 = &#x27;c04&#x27; and 成绩 &gt; 90</span><br></pre></td></tr></table></figure>
+
+<p>and是两个条件都满足</p>
+<p>or是两个条件满足其中之一就行</p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302071501285.png" alt="image-20221118143140498"></p>
+<p>in后面代表的是集合,里面得是同类型的东西</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">between xx and xx检索一个范围(整数),并且这是一个闭区间</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302071501286.png" alt="image-20221118143653861"></p>
+<p>like语句</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">select * from stu where sanme like &#x27;王%&#x27;;(%替代很多个)</span><br><span class="line"></span><br><span class="line">select * from stu where sanme like &#x27;王_&#x27;;(_替代一个)</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302071501287.png" alt="image-20221118145605265"></p>
+<p>如此以查找含有名字的</p>
+<h3 id="内联查询"><a href="#内联查询" class="headerlink" title="内联查询"></a>内联查询</h3><p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302071501288.png" alt="image-20221118160657657"></p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302071501289.png" alt="image-20221118160756250"></p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302071501290.png" alt="image-20221118160848438"></p>
+<p>当两个表有同一个字段时,需要加表前缀加以区分</p>
+<h4 id="自然连接"><a href="#自然连接" class="headerlink" title="自然连接"></a>自然连接</h4><p>join前加nature,两个字段必须同名并且会自动折叠同名的部分,原来那个字段名不必一样,但是内容得一样</p>
+<h4 id="外连接"><a href="#外连接" class="headerlink" title="外连接"></a>外连接</h4><p>左外连接和右外连接分别全部输出左边的数据与右边的数据,</p>
+<p>1、两者的分类不同：内连接分为相等连接和自然连接两种连接方式；而外连接分为左外连接、右外连接和全外连接三种连接方式（左外连接即LEFT OUTER JOIN；右外连接即RIGHT OUTER JOIN）。</p>
+<p>2、两者所连接的对象表不同：内连接进行连接的两个表是对应的相匹配的字段完全相同的。左外连接中进行连接的两个表会返回左边表中的所有的行和右边表中与之相匹配的列值，没有相匹配的用空值代替。右外连接中进行连接的两个表会返回右边表中的所有的行和左边表中与之相匹配的列值，没有相匹配的用空值代替。</p>
+<p>3、两者的作用范围不同：内连接的连接发生在一张基表内，而外连接的连接发生在两张表之间。</p>
+<p>注：内连接（典型的连接运算，使用像 =  或 &lt;&gt; 之类的比较运算符）。包括相等连接和自然连接。内连接使用比较运算符根据每个表共有的列的值匹配两个表中的行。例如，检索 students和courses表中学生标识号相同的所有行。</p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302071501291.png" alt="image-20221125144025429"></p>
+<h4 id="自链接"><a href="#自链接" class="headerlink" title="自链接"></a>自链接</h4><p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302071501292.png" alt="image-20221125144713254"></p>
+<p>a,b取别名,可以简化操作,学着点    <img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302071501293.png" alt="image-20221125145212936"></p>
+<p>3表连接,超级加倍</p>
+<h4 id="升序降序"><a href="#升序降序" class="headerlink" title="升序降序"></a>升序降序</h4><p>select * from xx order by 成绩 desc(降序)asc(升序)</p>
+<h4 id="嵌套查询-子查询"><a href="#嵌套查询-子查询" class="headerlink" title="嵌套查询-子查询"></a>嵌套查询-子查询</h4><p>in语句</p>
+<p>select 学号,姓名 from 学生 where 学号 not in (select 学号 from 选课);</p>
+<p>子查询的括号前面必须要in或者=&lt;&gt;之类的</p>
+<p>in表示范围内的数据</p>
+<p>where 年龄 &gt;(select 年龄 from 学生 where xxx<img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302071501294.png" alt="image-20221125165358705">)</p>
+<h4 id="运算符的子查询"><a href="#运算符的子查询" class="headerlink" title="运算符的子查询"></a>运算符的子查询</h4><p>selec xxx from xx where sex = ‘x’ and age &gt;(select xx from xx where name)</p>
+<h5 id="any-与all"><a href="#any-与all" class="headerlink" title="any 与all"></a>any 与all</h5><p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302071501296.png" alt="image-20221202134716965"></p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302071501297.png" alt="image-20221202134925838"></p>
+<h5 id="exist"><a href="#exist" class="headerlink" title="exist"></a>exist</h5><p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302071501298.png" alt="image-20221202140026009"></p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302071501299.png" alt="image-20221202140230801"></p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302071501300.png" alt="image-20221202141433864"></p>
+<p>字段相等也并不是一定要链接</p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302071501301.png" alt="image-20221202143544431"></p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302071501302.png" alt="image-20221202144457063"></p>
+<h4 id="分组查询"><a href="#分组查询" class="headerlink" title="分组查询"></a>分组查询</h4><p>group by</p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302071501303.png" alt="image-20221202145747995"></p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302071501304.png" alt="image-20221202145946599"></p>
+<h4 id="having语句"><a href="#having语句" class="headerlink" title="having语句"></a>having语句</h4><p>对分组后的语句经行条件的筛选就用having</p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302071501305.png" alt="image-20221202150916501"></p>
+<p>having后还能加order by</p>
+<h2 id="sql视图"><a href="#sql视图" class="headerlink" title="sql视图"></a>sql视图</h2><p>视图的作用</p>
+<p>简化用户的操作</p>
+<p>创建视图</p>
+<p>create view 视图名 (字段名列表) as 子查询 with check option</p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302071508862.png" alt="image-20221202160721007"></p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302071508863.png" alt="image-20221202160824790"></p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302071508864.png" alt="image-20221202161103904"></p>
+<h3 id="视图的更新"><a href="#视图的更新" class="headerlink" title="视图的更新"></a>视图的更新</h3><p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302071508865.png" alt="image-20221202162335837"></p>
+<p>with check option的作用创建的视图中字段设有where条件,当有check option的时候插入非法字符就会报错,插入的东西或是修改的东西在基表里,但是修改视图的同时也修改了基表</p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302071508866.png" alt="image-20221202165306489"> </p>
+<h3 id="删除视图"><a href="#删除视图" class="headerlink" title="删除视图"></a>删除视图</h3><p>drop view 视图名</p>
+<h2 id="触发器"><a href="#触发器" class="headerlink" title="触发器"></a>触发器</h2><p>create trigger 触发器名 (before/after) (insert update delete) on 表名 for each row 触发器主体</p>
+<h3 id="触发器主体"><a href="#触发器主体" class="headerlink" title="触发器主体"></a>触发器主体</h3><p>begin</p>
+<p>aql语句;</p>
+<p>end;</p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302071508867.png" alt="image-20221209141407789"></p>
+<h3 id="new与old实现数据库完整性约束"><a href="#new与old实现数据库完整性约束" class="headerlink" title="new与old实现数据库完整性约束"></a>new与old实现数据库完整性约束</h3><p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302071508868.png" alt="image-20221209143903180"></p>
+<h2 id="查看与删除触发器"><a href="#查看与删除触发器" class="headerlink" title="查看与删除触发器"></a>查看与删除触发器</h2><p>drop trigger </p>
+<p>show trigg</p>
+<h2 id="遗留下来的一些奇怪的东西"><a href="#遗留下来的一些奇怪的东西" class="headerlink" title="遗留下来的一些奇怪的东西"></a>遗留下来的一些奇怪的东西</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">DELIMITER $$</span><br><span class="line">CREATE TRIGGER t_ww AFTER UPDATE ON worker FOR EACH ROW</span><br><span class="line">BEGIN</span><br><span class="line">IF new.age &gt; 60 THEN</span><br><span class="line">UPDATE worker SET new.age = old.age;</span><br><span class="line">END IF;</span><br><span class="line">END;</span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="关系模型的三类完整性约束"><a href="#关系模型的三类完整性约束" class="headerlink" title="关系模型的三类完整性约束"></a>关系模型的三类完整性约束</h4><p>实体完整性  通过主键的约束保证不重复</p>
+<p>参照完整性 通过外键的管理保证标与表之间数据的完整性</p>
+<p>自定义完整性 自定义扳机</p>
+<h4 id="关系的运算"><a href="#关系的运算" class="headerlink" title="关系的运算"></a>关系的运算</h4><p>σF(),F是下标,代表查询的条件,括号内为表,f相当于where,f可替换为 addr = ‘xxx’</p>
+<p>投影运算 Πsno,sname()下标,仅搜索下标的列</p>
+<h2 id="涉及到的题目"><a href="#涉及到的题目" class="headerlink" title="涉及到的题目"></a>涉及到的题目</h2><p>(所有的这些题目选择题也写一写)</p>
+<p>12  2 3 5</p>
+<p>27  第二个</p>
+<p>28 第四个</p>
+<p>28,29,30问答题 </p>
+<p>48 第一题,第三题,</p>
+<p>73 第二题,第四题</p>
+<p>95 第十二(第五章)</p>
+<p>第六章分几乎占一半(直接或间接)</p>
+<p>153 1 2 3</p>
+<p>155 22题</p>
+<p>193 做了解</p>
+ 
+      <!-- reward -->
+      
+      <div id="reword-out">
+        <div id="reward-btn">
+          Donate
+        </div>
+      </div>
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <div class="declare">
+      <ul class="post-copyright">
+        <li>
+          <i class="ri-copyright-line"></i>
+          <strong>Copyright： </strong>
+          
+          Copyright is owned by the author. For commercial reprints, please contact the author for authorization. For non-commercial reprints, please indicate the source.
+          
+        </li>
+      </ul>
+    </div>
+    
+    <footer class="article-footer">
+       
+<div class="share-btn">
+      <span class="share-sns share-outer">
+        <i class="ri-share-forward-line"></i>
+        分享
+      </span>
+      <div class="share-wrap">
+        <i class="arrow"></i>
+        <div class="share-icons">
+          
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="ri-weibo-fill"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="ri-wechat-fill"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="ri-qq-fill"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="ri-douban-line"></i>
+          </a>
+          <!-- <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a> -->
+          
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="ri-facebook-circle-fill"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="ri-twitter-fill"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="ri-google-fill"></i>
+          </a>
+        </div>
+      </div>
+</div>
+
+<div class="wx-share-modal">
+    <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://example.com/2023/02/06/%E5%A4%A7%E4%B8%80%E7%AC%AC%E4%B8%80%E5%AD%A6%E6%9C%9F%E6%95%B0%E6%8D%AE%E5%BA%93%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0%E5%A4%A7%E7%BA%B2/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div id="share-mask"></div>  
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/" rel="tag">-数据库</a></li></ul>
+
+    </footer>
+  </div>
+
+   
+  <nav class="article-nav">
+    
+    
+      <a href="/2023/02/06/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AF%BC%E8%AE%BA%E5%A4%A7%E4%B8%80%E4%B8%8A%E5%A4%8D%E4%B9%A0%E8%AE%A1%E5%88%92%E5%A4%A7%E7%BA%B2/" class="article-nav-link">
+        <strong class="article-nav-caption">下一篇</strong>
+        <div class="article-nav-title">计算机导论大一上复习计划大纲</div>
+      </a>
+    
+  </nav>
+
+  
+   
+    
+    <script src="https://cdn.staticfile.org/twikoo/1.4.18/twikoo.all.min.js"></script>
+    <div id="twikoo" class="twikoo"></div>
+    <script>
+        twikoo.init({
+            envId: ""
+        })
+    </script>
+ 
+</article>
+
+</section>
+      <footer class="footer">
+  <div class="outer">
+    <ul>
+      <li>
+        Copyrights &copy;
+        2023
+        <i class="ri-heart-fill heart_icon"></i> Langxecho
+      </li>
+    </ul>
+    <ul>
+      <li>
+        
+      </li>
+    </ul>
+    <ul>
+      <li>
+        
+        
+        <span>
+  <span><i class="ri-user-3-fill"></i>Visitors:<span id="busuanzi_value_site_uv"></span></span>
+  <span class="division">|</span>
+  <span><i class="ri-eye-fill"></i>Views:<span id="busuanzi_value_page_pv"></span></span>
+</span>
+        
+      </li>
+    </ul>
+    <ul>
+      
+    </ul>
+    <ul>
+      
+    </ul>
+    <ul>
+      <li>
+        <!-- cnzz统计 -->
+        
+        <script type="text/javascript" src='https://s9.cnzz.com/z_stat.php?id=1278069914&amp;web_id=1278069914'></script>
+        
+      </li>
+    </ul>
+  </div>
+</footer>    
+    </main>
+    <div class="float_btns">
+      <div class="totop" id="totop">
+  <i class="ri-arrow-up-line"></i>
+</div>
+
+<div class="todark" id="todark">
+  <i class="ri-moon-line"></i>
+</div>
+
+    </div>
+    <aside class="sidebar on">
+      <button class="navbar-toggle"></button>
+<nav class="navbar">
+  
+  <div class="logo">
+    <a href="/"><img src="/images/ayer-side.svg" alt="Langxecho"></a>
+  </div>
+  
+  <ul class="nav nav-main">
+    
+    <li class="nav-item">
+      
+      <a class="nav-item-link" href="/">主页</a>
+    </li>
+    
+    <li class="nav-item">
+      
+      <a class="nav-item-link" href="/archives">归档</a>
+    </li>
+    
+    <li class="nav-item">
+      
+      <a class="nav-item-link" href="/categories">分类</a>
+    </li>
+    
+    <li class="nav-item">
+      
+      <a class="nav-item-link" href="/tags">标签</a>
+    </li>
+    
+    <li class="nav-item">
+      
+      <a class="nav-item-link" href="/tags/%E6%97%85%E8%A1%8C/">旅行</a>
+    </li>
+    
+    <li class="nav-item">
+      
+      <a class="nav-item-link" target="_blank" rel="noopener" href="http://shenyu-vip.lofter.com">摄影</a>
+    </li>
+    
+    <li class="nav-item">
+      
+      <a class="nav-item-link" href="/friends">友链</a>
+    </li>
+    
+    <li class="nav-item">
+      
+      <a class="nav-item-link" href="/2019/about">关于我</a>
+    </li>
+    
+  </ul>
+</nav>
+<nav class="navbar navbar-bottom">
+  <ul class="nav">
+    <li class="nav-item">
+      
+      <a class="nav-item-link nav-item-search"  title="Search">
+        <i class="ri-search-line"></i>
+      </a>
+      
+      
+      <a class="nav-item-link" target="_blank" href="/atom.xml" title="RSS Feed">
+        <i class="ri-rss-line"></i>
+      </a>
+      
+    </li>
+  </ul>
+</nav>
+<div class="search-form-wrap">
+  <div class="local-search local-search-plugin">
+  <input type="search" id="local-search-input" class="local-search-input" placeholder="Search...">
+  <div id="local-search-result" class="local-search-result"></div>
+</div>
+</div>
+    </aside>
+    <div id="mask"></div>
+
+<!-- #reward -->
+<div id="reward">
+  <span class="close"><i class="ri-close-line"></i></span>
+  <p class="reward-p"><i class="ri-cup-line"></i>请我喝杯咖啡吧~</p>
+  <div class="reward-box">
+    
+    <div class="reward-item">
+      <img class="reward-img" src="/images/alipay.jpg">
+      <span class="reward-type">支付宝</span>
+    </div>
+    
+    
+    <div class="reward-item">
+      <img class="reward-img" src="/images/wechat.jpg">
+      <span class="reward-type">微信</span>
+    </div>
+    
+  </div>
+</div>
+    
+<script src="/js/jquery-3.6.0.min.js"></script>
+ 
+<script src="/js/lazyload.min.js"></script>
+
+<!-- Tocbot -->
+ 
+<script src="/js/tocbot.min.js"></script>
+
+<script>
+  tocbot.init({
+    tocSelector: ".tocbot",
+    contentSelector: ".article-entry",
+    headingSelector: "h1, h2, h3, h4, h5, h6",
+    hasInnerContainers: true,
+    scrollSmooth: true,
+    scrollContainer: "main",
+    positionFixedSelector: ".tocbot",
+    positionFixedClass: "is-position-fixed",
+    fixedSidebarOffset: "auto",
+  });
+</script>
+
+<script src="https://cdn.staticfile.org/jquery-modal/0.9.2/jquery.modal.min.js"></script>
+<link
+  rel="stylesheet"
+  href="https://cdn.staticfile.org/jquery-modal/0.9.2/jquery.modal.min.css"
+/>
+<script src="https://cdn.staticfile.org/justifiedGallery/3.8.1/js/jquery.justifiedGallery.min.js"></script>
+
+<script src="/dist/main.js"></script>
+
+<!-- ImageViewer -->
+ <!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" style="display:none" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<link rel="stylesheet" href="https://cdn.staticfile.org/photoswipe/4.1.3/photoswipe.min.css">
+<link rel="stylesheet" href="https://cdn.staticfile.org/photoswipe/4.1.3/default-skin/default-skin.min.css">
+<script src="https://cdn.staticfile.org/photoswipe/4.1.3/photoswipe.min.js"></script>
+<script src="https://cdn.staticfile.org/photoswipe/4.1.3/photoswipe-ui-default.min.js"></script>
+
+<script>
+    function viewer_init() {
+        let pswpElement = document.querySelectorAll('.pswp')[0];
+        let $imgArr = document.querySelectorAll(('.article-entry img:not(.reward-img)'))
+
+        $imgArr.forEach(($em, i) => {
+            $em.onclick = () => {
+                // slider展开状态
+                // todo: 这样不好，后面改成状态
+                if (document.querySelector('.left-col.show')) return
+                let items = []
+                $imgArr.forEach(($em2, i2) => {
+                    let img = $em2.getAttribute('data-idx', i2)
+                    let src = $em2.getAttribute('data-target') || $em2.getAttribute('src')
+                    let title = $em2.getAttribute('alt')
+                    // 获得原图尺寸
+                    const image = new Image()
+                    image.src = src
+                    items.push({
+                        src: src,
+                        w: image.width || $em2.width,
+                        h: image.height || $em2.height,
+                        title: title
+                    })
+                })
+                var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, {
+                    index: parseInt(i)
+                });
+                gallery.init()
+            }
+        })
+    }
+    viewer_init()
+</script> 
+<!-- MathJax -->
+
+<!-- Katex -->
+
+<!-- busuanzi  -->
+ 
+<script src="/js/busuanzi-2.3.pure.min.js"></script>
+ 
+<!-- ClickLove -->
+
+<!-- ClickBoom1 -->
+
+<!-- ClickBoom2 -->
+
+<!-- CodeCopy -->
+ 
+<link rel="stylesheet" href="/css/clipboard.css">
+ <script src="https://cdn.staticfile.org/clipboard.js/2.0.10/clipboard.min.js"></script>
+<script>
+  function wait(callback, seconds) {
+    var timelag = null;
+    timelag = window.setTimeout(callback, seconds);
+  }
+  !function (e, t, a) {
+    var initCopyCode = function(){
+      var copyHtml = '';
+      copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
+      copyHtml += '<i class="ri-file-copy-2-line"></i><span>COPY</span>';
+      copyHtml += '</button>';
+      $(".highlight .code pre").before(copyHtml);
+      $(".article pre code").before(copyHtml);
+      var clipboard = new ClipboardJS('.btn-copy', {
+        target: function(trigger) {
+          return trigger.nextElementSibling;
+        }
+      });
+      clipboard.on('success', function(e) {
+        let $btn = $(e.trigger);
+        $btn.addClass('copied');
+        let $icon = $($btn.find('i'));
+        $icon.removeClass('ri-file-copy-2-line');
+        $icon.addClass('ri-checkbox-circle-line');
+        let $span = $($btn.find('span'));
+        $span[0].innerText = 'COPIED';
+        
+        wait(function () { // 等待两秒钟后恢复
+          $icon.removeClass('ri-checkbox-circle-line');
+          $icon.addClass('ri-file-copy-2-line');
+          $span[0].innerText = 'COPY';
+        }, 2000);
+      });
+      clipboard.on('error', function(e) {
+        e.clearSelection();
+        let $btn = $(e.trigger);
+        $btn.addClass('copy-failed');
+        let $icon = $($btn.find('i'));
+        $icon.removeClass('ri-file-copy-2-line');
+        $icon.addClass('ri-time-line');
+        let $span = $($btn.find('span'));
+        $span[0].innerText = 'COPY FAILED';
+        
+        wait(function () { // 等待两秒钟后恢复
+          $icon.removeClass('ri-time-line');
+          $icon.addClass('ri-file-copy-2-line');
+          $span[0].innerText = 'COPY';
+        }, 2000);
+      });
+    }
+    initCopyCode();
+  }(window, document);
+</script>
+ 
+<!-- CanvasBackground -->
+
+<script>
+  if (window.mermaid) {
+    mermaid.initialize({ theme: "forest" });
+  }
+</script>
+
+
+    
+    
+
+  </div>
+</body>
+
+</html>

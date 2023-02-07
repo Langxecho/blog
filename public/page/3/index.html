@@ -105,22 +105,6 @@
 <div id="main">
   <section class="outer">
   
-  <ul class="ads">
-    
-        <li>
-            <a target="_blank" rel="noopener" href="https://curl.qcloud.com/kvO7hb43">
-                <img src="https://pic.imgdb.cn/item/62174b452ab3f51d912a5ccc.jpg" width="300" alt="云服务器限时秒杀">
-            </a>
-        </li>
-    
-        <li>
-            <a target="_blank" rel="noopener" href="https://www.vultr.com/?ref=8630075">
-                <img src="https://pic.imgdb.cn/item/62174b452ab3f51d912a5cd7.png" width="300" alt="vultr优惠vps">
-            </a>
-        </li>
-    
-</ul>
-  
   
   
 
@@ -168,6 +152,149 @@
     
     
     
+    
+    <article
+  id="post-面向对象-java类及类的成员"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/2017/05/26/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-java%E7%B1%BB%E5%8F%8A%E7%B1%BB%E7%9A%84%E6%88%90%E5%91%98/"
+    >面向对象-java类以及类的成员</a> 
+</h2>
+ 
+
+      
+    </header>
+     
+    <div class="article-meta">
+      <a href="/2017/05/26/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-java%E7%B1%BB%E5%8F%8A%E7%B1%BB%E7%9A%84%E6%88%90%E5%91%98/" class="article-date">
+  <time datetime="2017-05-26T04:12:57.000Z" itemprop="datePublished">2017-05-26</time>
+</a> 
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/java/">java</a> / <a class="article-category-link" href="/categories/java/java%E5%9F%BA%E7%A1%80/">java基础</a>
+  </div>
+   
+    </div>
+      
+    <div class="article-entry" itemprop="articleBody">
+       
+  <h3 id="java类以及类的成员-属性-方法-构造器-代码块-内部类"><a href="#java类以及类的成员-属性-方法-构造器-代码块-内部类" class="headerlink" title="java类以及类的成员:属性,方法,构造器;代码块,内部类"></a>java类以及类的成员:属性,方法,构造器;代码块,内部类</h3><p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281544484.png" alt="image-20221110162529295"></p>
+<h2 id="面向过程与面向对象"><a href="#面向过程与面向对象" class="headerlink" title="面向过程与面向对象"></a>面向过程与面向对象</h2><p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281544177.png" alt="image-20221110164953202"></p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281544854.png" alt="image-20221110165951763"></p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281544863.png" alt="image-20221110170031878"></p>
+<h3 id="java语言的基本元素-类与对象"><a href="#java语言的基本元素-类与对象" class="headerlink" title="java语言的基本元素:类与对象"></a>java语言的基本元素:类与对象</h3><p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281545183.png" alt="image-20221110170335418"></p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281545291.png" alt="image-20221110170559944"></p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281545069.png" alt="image-20221110170706319"></p>
+<h3 id="类的结构-属性与方法"><a href="#类的结构-属性与方法" class="headerlink" title="类的结构:属性与方法"></a>类的结构:属性与方法</h3><p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281545680.png" alt="image-20221110171238179"></p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281545651.png" alt="image-20221113151740802"> </p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281545813.png" alt="image-20221113151947760"></p>
+<h2 id="创建类的对象"><a href="#创建类的对象" class="headerlink" title="创建类的对象"></a>创建类的对象</h2><p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281545767.png" alt="image-20221113152239822"></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">person</span> <span class="variable">p</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">person</span>;</span><br><span class="line"><span class="comment">//创建类的对象=类的实例化=实例化类</span></span><br><span class="line"><span class="comment">//调用对象的结构:属性,方法</span></span><br><span class="line"><span class="comment">//调用属性:&quot;对象.属性&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281545640.png" alt="image-20221113152826043"></p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281545636.png" alt="image-20221113153114797"></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">p1成为了类的实例,并且属性就是成员变量</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281546891.png" alt="image-20221113160220957"></p>
+<h4 id="如果创建了一个类的多个对象-那么每个对象都独立的拥有一套类的属性"><a href="#如果创建了一个类的多个对象-那么每个对象都独立的拥有一套类的属性" class="headerlink" title="如果创建了一个类的多个对象,那么每个对象都独立的拥有一套类的属性"></a>如果创建了一个类的多个对象,那么每个对象都独立的拥有一套类的属性</h4><p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281546429.png" alt="image-20221113161151863"></p>
+<p>地址值是相同的,至于为什么 p3=p1,大概是因为类型是相同的所以省略了后缀吧</p>
+<h2 id="对象的内存解析"><a href="#对象的内存解析" class="headerlink" title="对象的内存解析"></a>对象的内存解析</h2><p> <img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281546055.png" alt="image-20221113161354349"></p>
+<p>这是对象的具体内存结构</p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281546399.png" alt="image-20221113161824120"></p>
+<h2 id="属性与局部变量的对比"><a href="#属性与局部变量的对比" class="headerlink" title="属性与局部变量的对比"></a>属性与局部变量的对比</h2><p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281546783.png" alt="image-20221113164125220"></p>
+<p>属性可以声明权限</p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281546408.png" alt="image-20221113164142504"></p>
+<p>其实就是变量一类的东西放的位置不同,他的功能也就不同,</p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281546928.png" alt="image-20221113164403247"></p>
+<p>局部变量在调用时都必须赋值</p>
+<p>形参在调用时赋值即可</p>
+<h3 id="局部变量与属性加载的位置不同"><a href="#局部变量与属性加载的位置不同" class="headerlink" title="局部变量与属性加载的位置不同"></a>局部变量与属性加载的位置不同</h3><p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281546212.png" alt="image-20221113193414879"></p>
+<h2 id="方法举例与格式的说明"><a href="#方法举例与格式的说明" class="headerlink" title="方法举例与格式的说明"></a>方法举例与格式的说明</h2><p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281546559.png" alt="image-20221115163831432"></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">void表示没有返回值</span><br><span class="line">有string的表示返回值为string</span><br><span class="line">()内写的是形参</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p> <img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281546229.png" alt="image-20221115164258700"></p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281546343.png" alt="image-20221115164343471"></p>
+<h3 id="方法的声明"><a href="#方法的声明" class="headerlink" title="方法的声明"></a>方法的声明</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">权限修饰符 返回值类型 方法名(形参列表)&#123;方法体&#125;</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281546716.png" alt="image-20221115164555548"></p>
+<h4 id="权限修饰符"><a href="#权限修饰符" class="headerlink" title="权限修饰符"></a>权限修饰符</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">private.public,缺省,protected--封装性再细说,默认都先使用public</span><br></pre></td></tr></table></figure>
+
+<h4 id="返回值类型"><a href="#返回值类型" class="headerlink" title="返回值类型"></a>返回值类型</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">如果有返回值,必须在方法声明时,指定返回值的类型.同时方法中需要使用return来返回指定类型的变量或者常量</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281546529.png" alt="image-20221115165041333"></p>
+<p>第一个时变量,第二个是常量</p>
+<p>每一个可以输出的地方或者结果的地方都需要返回值</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">如果方法没有返回值,则在方法声明时,使用void来表示,通常情况下不用return,但是可以使用return;来结束此方法</span><br><span class="line">return后不可以声明表达式</span><br><span class="line"> </span><br></pre></td></tr></table></figure>
+
+<h3 id="小结1"><a href="#小结1" class="headerlink" title="小结1"></a>小结1</h3><p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281546640.png" alt="image-20221115165652260"></p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281546009.png" alt="image-20221115165702139"></p>
+<h3 id="方法名"><a href="#方法名" class="headerlink" title="方法名"></a>方法名</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">方法名属于标识符,要使用规范,遵循所见即所得原则</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h3 id="形参列表"><a href="#形参列表" class="headerlink" title="形参列表"></a>形参列表</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">可以声明一个或多个形参</span><br><span class="line">格式 :数据类型 形参,数据类型 形参.....</span><br><span class="line">只声明不赋值</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281547054.png" alt="image-20221116101717887"></p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281547407.png" alt="image-20221116101841712"></p>
+<h3 id="一些注意点"><a href="#一些注意点" class="headerlink" title="一些注意点"></a>一些注意点</h3><p>类内部的方法可以调用类的属性</p>
+<p>方法内部可以调用方法</p>
+<p>递归就是方法自己调用自己</p>
+<p>方法中不能定义方法</p>
+<h3 id="传输接受与返回"><a href="#传输接受与返回" class="headerlink" title="传输接受与返回"></a>传输接受与返回</h3><p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281547610.png" alt="image-20221117101910110"></p>
+<p>多理解理解</p>
+<p>当然如果没有返回那直接写个sout也可以</p>
+<h4 id="传参数的问题"><a href="#传参数的问题" class="headerlink" title="传参数的问题"></a>传参数的问题</h4><p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281547934.png" alt="image-20221117102137790"></p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281547451.png" alt="image-20221117102144642"></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">如果方法会调用类的属性,那么修改类,也可以更改参数</span><br><span class="line"></span><br><span class="line">如果用形参,传入数据,也是修改参数的一种方法</span><br><span class="line"></span><br><span class="line">但是这两种方法一旦弄混了,那就会出现各种奇怪的bug</span><br></pre></td></tr></table></figure>
+
+<h3 id="对象与static的错误"><a href="#对象与static的错误" class="headerlink" title="对象与static的错误"></a>对象与static的错误</h3><p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281547872.png" alt="image-20221117102529665"></p>
+<p>如果你建方法时不用static,那么就必须造一个对象去调用,否则会出错,这里涉及到的点之后回去详细说明</p>
+<h3 id="关于方法声明的一些练习"><a href="#关于方法声明的一些练习" class="headerlink" title="关于方法声明的一些练习"></a>关于方法声明的一些练习</h3><p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281547085.png" alt="image-20221117145702406"></p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281547737.png" alt="image-20221117145749766"></p>
+<p>如果直接调用method方法,那么就必须把static给补上</p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281547102.png" alt="image-20221117150418016"></p>
+<p>先强化造对象的过程再说别的</p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281547778.png" alt="image-20221117150645874"></p>
+<p>虽然说里边是个方法,但是实际上返回值是变量,也就是最终结果是变量,所以可以放</p>
+<h3 id="属性与形参"><a href="#属性与形参" class="headerlink" title="属性与形参"></a>属性与形参</h3><p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281547084.png" alt="image-20221117152023865"></p>
+<p>这个代码已经说明的很清楚了</p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281547621.png" alt="image-20221117152148621"></p>
+<p>形参的调用</p>
+<h3 id="重点好题⭐"><a href="#重点好题⭐" class="headerlink" title="重点好题⭐"></a>重点好题⭐</h3><p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281547603.png" alt="image-20221117152920791"></p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281547877.png" alt="image-20221117153215395"></p>
+<p><strong>也就是说,数组里面啥都能装,可以装数字型,也能把对象给装进去.</strong></p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281547890.png" alt="image-20221117154558648"></p>
+<p>换句话说这个数组的类是student类,的</p>
+<p>具体原理参见柞与堆</p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281547105.png" alt="image-20221117153528207"></p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281547563.png" alt="image-20221117153642066"></p>
+<p>还可以利用类里面的方法进行编辑</p>
+<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202301281547499.png" alt="image-20221117154213954"></p>
+<p>数组之间的使用必须是同类型的.</p>
+ 
+      <!-- reward -->
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <footer class="article-footer">
+       
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/java/" rel="tag">java</a></li></ul>
+
+    </footer>
+  </div>
+
+   
+    
+</article>
+
     
     <article
   id="post-算数运算符的使用"
@@ -760,62 +887,6 @@
 <p>del选择文件夹删除的是文件夹中的文件</p>
 <p>左右键移动光标</p>
 <p>上下键</p>
- 
-      <!-- reward -->
-      
-    </div>
-    
-
-    <!-- copyright -->
-    
-    <footer class="article-footer">
-       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/java/" rel="tag">java</a></li></ul>
-
-    </footer>
-  </div>
-
-   
-    
-</article>
-
-    
-    <article
-  id="post-标识符与命名规范--持续更新"
-  class="article article-type-post"
-  itemscope
-  itemprop="blogPost"
-  data-scroll-reveal
->
-  <div class="article-inner">
-    
-    <header class="article-header">
-       
-<h2 itemprop="name">
-  <a class="article-title" href="/2016/05/26/%E6%A0%87%E8%AF%86%E7%AC%A6%E4%B8%8E%E5%91%BD%E5%90%8D%E8%A7%84%E8%8C%83--%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/"
-    >标识符与命名规范</a> 
-</h2>
- 
-
-      
-    </header>
-     
-    <div class="article-meta">
-      <a href="/2016/05/26/%E6%A0%87%E8%AF%86%E7%AC%A6%E4%B8%8E%E5%91%BD%E5%90%8D%E8%A7%84%E8%8C%83--%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/" class="article-date">
-  <time datetime="2016-05-26T04:12:57.000Z" itemprop="datePublished">2016-05-26</time>
-</a> 
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/java/">java</a> / <a class="article-category-link" href="/categories/java/java%E5%9F%BA%E7%A1%80/">java基础</a>
-  </div>
-   
-    </div>
-      
-    <div class="article-entry" itemprop="articleBody">
-       
-  <h2 id="标识符"><a href="#标识符" class="headerlink" title="标识符"></a>标识符</h2><p>可以起名字的地方都叫标识符</p>
-<p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302041641794.png" alt="image-20230204164138728"></p>
-<h2 id="命名规范"><a href="#命名规范" class="headerlink" title="命名规范"></a>命名规范</h2><p><img src="https://markdown-langxecho-save.oss-cn-hangzhou.aliyuncs.com/img/202302041642126.png" alt="image-20230204164209044"></p>
-<p>java设置名字要见名知意，不要自己搞自己</p>
  
       <!-- reward -->
       
