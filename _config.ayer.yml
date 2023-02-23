@@ -15,7 +15,7 @@ subtitle:
   enable: true # 是否开启动效
   text: 成为你想所想的那样 # 显示的文字
   text2: 输了可不好玩,所以我从来都不会输 # 滚动播放，如果不需要可以留空
-  text3: 快乐每一天 # 最多支持三段文字
+  text3: 一切的乐趣都在于与现实相接触啊 # 最多支持三段文字
   startDelay: 0 # 延迟时间
   typeSpeed: 200 # 打字速度
   loop: true # 是否循环

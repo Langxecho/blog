@@ -2,7 +2,7 @@
 title: hexo创建文件自动打开
 date: 2023-02-04 20:40:53
 tags: 黑科技
-categories: 科技分享给
+categories: 科技分享
 ---
 
 
